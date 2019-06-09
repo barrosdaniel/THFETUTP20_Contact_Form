@@ -63,4 +63,18 @@ a[target="_blank"] {
     display: inline-block;
   }
 
+  .btn+.btn {
+    margin-left: 20px;
+  }
+}
+
+/* Combinators */
+form>a {
+  font-size: .7em;
+}
+
+h1~label {
+  background: tomato;
+  color: white;
+  padding: 5px;
 }
